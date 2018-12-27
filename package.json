@@ -1,0 +1,24 @@
+{
+  "name": "bookit-project",
+  "version": "1.0.0",
+  "description": "bookit protractor project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "protractor",
+    "jasmine",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.2",
+    "protractor-beautiful-reporter": "^1.2.7"
+  },
+  "dependencies": {
+    "pg-promise": "^8.5.4"
+  }
+}
