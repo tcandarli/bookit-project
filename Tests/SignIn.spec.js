@@ -28,4 +28,9 @@ describe('SignIn Page', () => {
 
     });
 
+    it('should verify the welcome text of signin page', () => {
+        expect(SignInPage.title.getText()).toEqual(CybertekData.signIn.welcomeText1);
+        expect(SignInPage.subtitle.getText()).toEqual(CybertekData.signIn.welcomeText2);
+    });
+
 });
